@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+      @apply m-0 overflow-visible;
+  }
+}
+
 @layer components {
   .popup-box {
     position: fixed;
