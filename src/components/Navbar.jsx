@@ -11,7 +11,7 @@ const NavBar = () => {
     return (
         <div className="fixed w-full h-[80px] flex justify-between items-center text-lg p-1 md:p-5 shadow-md">
             <div>
-                <img src={Logo} alt="Logo Image" className="h-[65px] w-[75px] md:h-[40px] md:w-[85px]"/>
+                <img src={Logo} alt="Logo" className="h-[65px] w-[75px] md:h-[40px] md:w-[85px]"/>
             </div>
             <div className="text-center text-[20px] md:text-3xl">
                 Virtual file system
