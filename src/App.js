@@ -1,13 +1,13 @@
 import Footer from "./components/Footer";
 import NavBar from "./components/Navbar";
-import TerminalDemo from "./components/TerminalDemo";
+import TerminalClI from "./components/TerminalCLI";
 
 
 function App() {
   return (
     <div className="">
       <NavBar/>
-      <TerminalDemo/>
+      <TerminalClI/>
       <Footer/>
     </div>
   );
